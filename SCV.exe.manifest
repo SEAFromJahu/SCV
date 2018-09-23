@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="SCV.exe" version="1.0.0.0" publicKeyToken="125d1a492eb2d713" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="SCV" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="SCV.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DnsClient.dll" size="90624">
+      <assemblyIdentity name="DnsClient" version="1.0.7.0" publicKeyToken="4574BB5573C51424" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>s/3iZup6q+Hq3c+PlidNy+UlTz8JiwAaYrXuQiYTYQE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MongoDB.Bson.dll" size="453632">
+      <assemblyIdentity name="MongoDB.Bson" version="2.7.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>61hyq/z/LwpnPEpcides8oqhl+F7kxBv1Me3EI0v9WQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MongoDB.Driver.dll" size="660480">
+      <assemblyIdentity name="MongoDB.Driver" version="2.7.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>z46G/QaPUs4VQXD9RFt5PzbUdXwpEsrE7P4QkmPpbZc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MongoDB.Driver.Core.dll" size="753152">
+      <assemblyIdentity name="MongoDB.Driver.Core" version="2.7.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>khq5pKmj2p8A29jNExI/MKQroIIzXAV6mi2yB38LyaM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SCV.exe" size="54240">
+      <assemblyIdentity name="SCV" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>h8F3ogMB4CgRCrCwIqa+39isYkC5nTYOhX3r1eDW59Q=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="System.Buffers.dll" size="27320">
+      <assemblyIdentity name="System.Buffers" version="4.0.1.0" publicKeyToken="CC7B13FFCD2DDD51" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>r/4IKII7IqMIM3I/R0NReu0wYglJBsHGoev/qHz6gEI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="System.Runtime.InteropServices.RuntimeInformation.dll" size="33248">
+      <assemblyIdentity name="System.Runtime.InteropServices.RuntimeInformation" version="4.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>zM6wAeCncaJcQn7ZVRu8WNfoGWLPDOGefvEF4snRSK4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="SCV.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rl5/qDc7Jz+tB+BIbOv9iMGPlRe6YJwrjmU09dnlPcs=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-DRJ6817\sea-5" issuerKeyHash="1ac9375ad1ba0baa3630924a406150a5550d38b4" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>xyS+D4O4HAUQZbPJTPv/Oqt8n+/QGg4hiVQwBxz9OG0=</DigestValue></Reference></SignedInfo><SignatureValue>hKMgnUknYEg+4fELvGXjXKZ23TcCy0SFBtOCTV66rPHlpLyk7n+8E56RdPCPDTQUpJDj/3DOtcAAcwlymY6aPFgxfhL3H1KxxJ6KssL5scBtetYJuoIU4LULzatkZoUTQCF0ODECvUB6H0h7Zt1TUpBfN/EkSjARF38sWeXE8AU=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>xyqfneIaq3bcYs/xeUQdJ4kq6DGVc9kiVu15afzFo+MwXxRssWRS5ZzRn6xzsxsKA58yFkC6wbRnWWAt2YlCHuoMRnBQjuTc1lJaGvnaULxs00EgZ8ayHpr3LoPPnL5kNRBxU45E3WQfDeXoq7WF45nq5lRX3MA/srsUm92I32k=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="6d38fd1c07305489210e1ad0ef9f7cab3afffb4cc9b36510051cb8830fbe24c7" Description="" Url=""><as:assemblyIdentity name="SCV.exe" version="1.0.0.0" publicKeyToken="125d1a492eb2d713" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-DRJ6817\sea-5</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>OK7Ve9ggFCv5ZoAq5Ocrj0RCL6WuTM0vxmlMwiKz7Ug=</DigestValue></Reference></SignedInfo><SignatureValue>GDurGrIxLwOqa7EgO0HmstUWBmHWqTSV1+3lfR5euo86Wu7FBqaVgeczmURksmjoXwLp8cgnMeQjWqRV/YjRVIFC5TwG/H75R7FmxjA/sFTHnqSODWfqISktgGuYssZiN+Vn7BvVLCSndqSNQDF1FeW1hc7oVa4MkCiDLBLcym0=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>xyqfneIaq3bcYs/xeUQdJ4kq6DGVc9kiVu15afzFo+MwXxRssWRS5ZzRn6xzsxsKA58yFkC6wbRnWWAt2YlCHuoMRnBQjuTc1lJaGvnaULxs00EgZ8ayHpr3LoPPnL5kNRBxU45E3WQfDeXoq7WF45nq5lRX3MA/srsUm92I32k=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQSYrsuQs0H7pLqN1Yj/PSiTANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEQAUgBKADYAOAAxADcAXABzAGUAYQAtADUwHhcNMTgwOTIzMjIyNjE5WhcNMTkwOTI0MDQyNjE5WjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEQAUgBKADYAOAAxADcAXABzAGUAYQAtADUwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMcqn53iGqt23GLP8XlEHSeJKugxlXPZIlbteWn8xaPjMF8UbLFkUuWc0Z+sc7MbCgOfMhZAusG0Z1lgLdmJQh7qDEZwUI7k3NZSWhr52lC8bNNBIGfGsh6a9y6Dz5y+ZDUQcVOORN1kHw3l6Ku1heOZ6uZUV9zAP7K7FJvdiN9pAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAl+1neo03OGXTH6ZVd3fPoCPSPaOYiEb2AYfMu5v1uh8yVsfwC5pkZVZyMzXG+51GfOvf4s9mSsawgOyKSHTGg8H0yHcNb92r4zeQQ2G8pVax4mQ7NxKp5hjcW5MrMxdmK4SoZDBnEDmdnjMsfoiQ4NjdSW88HPI6p0vFw/sY4ms=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
