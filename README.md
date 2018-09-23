@@ -1,8 +1,9 @@
 # SCV
 Desafio Para Engenheiro de Software Vagas.com
 
-Junto ao arquivos do projeto "SCV: Score Candidato Vaga", desenvolvido em resposta ao Desafio para Engenheiro de Software VAGAS.com, disponibilizei o arquivo SCV.zip com instalador do executável para rodar no Windows 10.
-Observo no entando que para a aplicação SCV operar ela necessita da instalação prévia do MongoDB que pode ser obtida na url "https://www.mongodb.com". Ao acessar a url https://www.mongodb.com  no canto superior direito encontra-se um botão "Get MongoDB", clique neste botão e na página seguinte escolha a opção da aba "Community Server" o prossiga com realizando o download do instalador para o SO Windows (no meu caso desenvolvi no Windows 10 Pro 64-bit x64 e utilizei o VS2017 e C#).
+Junto ao arquivos do projeto "SCV-Score Candidato Vaga", desenvolvido em resposta ao Desafio para Engenheiro de Software VAGAS.com, disponibilizei o arquivo SCV.zip com instalador do executável para rodar no Windows 10 Pro.
+Observo no entando que para a aplicação SCV-Score Candidato Vaga operar ela necessita da instalação prévia do MongoDB, que pode ser obtido na url "https://www.mongodb.com".
+Ao acessar a url https://www.mongodb.com  no canto superior direito encontra-se um botão "Get MongoDB", clique neste botão e na página seguinte escolha a opção da aba "Community Server" o prossiga com realizando o download do instalador para o SO Windows (no meu caso desenvolvi no Windows 10 Pro 64-bit x64 e utilizei o VS2017 e C#).
 Após o Donwload permita a execução do instalador do MongoDB, aceite os termos e prossiga a instalação.
 Na tela seguinte escolha a instalação "Completa" e aceite as opções default "padrão", até finalizar o processo de instalação do MongoDB.
 Tendo instalado o MongoDB descompactar o arquivo SCV.zip e executar o aplicativo "setup" contido na pasta SCV/SCV em sequencia.
