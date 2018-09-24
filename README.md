@@ -17,7 +17,7 @@ Quando o usuário clicar em uma das linhas na primeira coluna de cada GridView �
 Finalize o registro de cada candidatura clicando no botão "Cadastrar Pessoa para vaga", e repita esta sequência a cada novo registro de candidatura a ser realizado.
 Por fim a "aba Score Candidatura/Vaga" opera semelhante a aba anterior "Registrar Candidaturas" onde apenas ao clicar na primeira  coluna de uma das linhas do GridView superior, "Vagas Registradas" executa-se automaticamente uma pesquisa para retornar os canditatos de uma vaga, ordenados pelo score (de forma decrescente).
 O resultado desta pesquisa automática é retornado no GridView "Score dos Candidatos da Vaga Selecionada".
-Observamos que este último GridView é atualizado a cada pesquisa realizada, descartando os dados da pesquisa anterior.
+Observo que este último GridView é atualizado a cada pesquisa realizada, descartando os dados da pesquisa anterior.
 
 Dúvidas - > por favor me contatem via "sergio.e.antonio@gmail.com"
 
