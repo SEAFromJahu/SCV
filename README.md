@@ -15,7 +15,9 @@ Na "aba Registrar Candidaturas" devido a não haver maiores especificações par
 Clicando na primeira coluna de uma das linhas de cada um deles "Coluna mais a esquerda sem descrição no cabeçalho" é possível selecionar qual vaga deseja vincular a tal pessoa.
 Quando o usuário clicar em uma das linhas na primeira coluna de cada GridView é mostrado abaixo dos Grids os "Ids" da Vaga e da Pessoa selecionados que serão registradas no banco MongoDB.
 Finalize o registro de cada candidatura clicando no botão "Cadastrar Pessoa para vaga", e repita esta sequência a cada novo registro de candidatura a ser realizado.
-Por fim a "aba Score Candidatura/Vaga" opera semelhante a aba anterior "Registrar Candidaturas" onde apenas ao clicar na primeira  coluna de uma das linhas do GridView superior, "Vagas Registradas" executa-se imediatamente a pesquisa para retornar os canditatos de uma vaga, ordenados pelo score (de forma decrescente).
+Por fim a "aba Score Candidatura/Vaga" opera semelhante a aba anterior "Registrar Candidaturas" onde apenas ao clicar na primeira  coluna de uma das linhas do GridView superior, "Vagas Registradas" executa-se automaticamente uma pesquisa para retornar os canditatos de uma vaga, ordenados pelo score (de forma decrescente).
+O resultado desta pesquisa automática é retornado no GridView "Score dos Candidatos da Vaga Selecionada".
+Observamos que este último GridView é atualizado a cada pesquisa realizada, descartando os dados da pesquisa anterior.
 
 Dúvidas - > por favor me contatem via "sergio.e.antonio@gmail.com"
 
