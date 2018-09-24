@@ -8,11 +8,14 @@ Após o Donwload, permita a execução do instalador do MongoDB, aceite os termo
 Na tela seguinte escolha a instalação "Completa" e aceite as opções default "padrão", até finalizar o processo de instalação do MongoDB.
 Tendo instalado o MongoDB descompactar o arquivo SCV.zip e execute o aplicativo "setup" contido na pasta SCV/SCV em sequência.
 Finalizando estas instalações, a aplicação SCV-Score Candidato Vaga estará completamente operacional no SO Windows, podendo executá-la clicando em um ícon que foi gerado diretamente no desktop ou pelos caminhos normais "padrões" para executar aplicativos instalados no Windows.
-Na tela inicial é possivel realizar os registros das vagas "aba Cadastrar Vagas" via textbox e demais objetos desta tela e clicando no botão Cadastrar Vaga de Emprego.
-Como feedback ao usuário da aplicação, no painel abaixo todas as entradas dos registros de vagas que estão sendo inseridas no banco MongoDB são retornadas ao usuário.
+Na tela inicial é possivel realizar os registros das vagas "aba Cadastrar Vagas" via textboxes e demais objetos desta tela. Clicando no botão Cadastrar Vaga de Emprego as informações contidas nesta aba são então cadastradas no banco de dados.
+Como feedback ao usuário desta aplicação, no painel abaixo do botão "Limpar Campos" todas as entradas dos registros de vagas que estão sendo inseridas no banco MongoDB são retornadas ao usuário.
 Nos mesmos moldes dos registros de vagas na "aba Cadastrar Pessoas" são realizados os registros das pessoas no banco MongoDB.
-Na "aba Registrar Candidaturas" devido a não haver maiores especificações para simplificar o processo de registro de candidaturas, foram implementados dois GridViews onde "clicando-se na primeira coluna de cada um deles é possível selecionar qual vaga deseja vincular a tal pessoa. Quando o usuário clicar na primeira coluna de cada GridView é mostrado abaixo dos Grids os ids da Vaga e da Pessoa que foi registrada no banco MongoDB.
-Por fim a "aba Score Candidatura/Vaga" opera semelhante a aba anterior "Registrar Candidaturas" onde apenas ao clicar na primeira coluna do GridView superior, "Vagas Registradas" executa-se imediatamente a pesquisa para retornar os canditatos de uma vaga, ordenados pelo score (de forma decrescente).
+Na "aba Registrar Candidaturas" devido a não haver maiores especificações para simplificar o processo de registro de candidaturas, foram implementados dois GridViews.
+Clicando na primeira coluna de uma das linhas de cada um deles "Coluna mais a esquerda sem descrição no cabeçalho" é possível selecionar qual vaga deseja vincular a tal pessoa.
+Quando o usuário clicar em uma das linhas na primeira coluna de cada GridView é mostrado abaixo dos Grids os "Ids" da Vaga e da Pessoa selecionados que serão registradas no banco MongoDB.
+Finalize o registro de cada candidatura clicando no botão "Cadastrar Pessoa para vaga", e repita esta sequência a cada novo registro de candidatura a ser realizado.
+Por fim a "aba Score Candidatura/Vaga" opera semelhante a aba anterior "Registrar Candidaturas" onde apenas ao clicar na primeira  coluna de uma das linhas do GridView superior, "Vagas Registradas" executa-se imediatamente a pesquisa para retornar os canditatos de uma vaga, ordenados pelo score (de forma decrescente).
 
 Dúvidas - > por favor me contatem via "sergio.e.antonio@gmail.com"
 
